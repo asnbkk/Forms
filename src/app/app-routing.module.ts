@@ -10,12 +10,14 @@ import { AdminListComponent } from './components/admin-list/admin-list.component
 import { TestComponent } from './components/test/test.component';
 import { AdminDetailedComponent } from './components/admin-detailed/admin-detailed.component';
 import { AdminResponsesComponent } from './components/admin-responses/admin-responses.component';
+import { RegistrationComponent } from './pages/registration/registration.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component:  HomeComponent },
   { path: 'login', component:  LoginComponent },
+  { path: 'registration', component: RegistrationComponent },
   { path: 'admin', component: AdminComponent, children: [
     { path: '1', component: AdminFirstComponent },
     { path: '2', component: AdminSecondComponent},

@@ -5,7 +5,7 @@
 .al_item {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr auto;
     background: #f0f0f0;
     padding: 0 1rem;
     align-items: center;

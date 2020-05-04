@@ -20,4 +20,8 @@ export class AdminService {
   login(user): Observable<any> {
     return this.http.post(this._url + 'user/login/', user, this.headers).pipe()
   }
+
+  registration(user): Observable<any> {
+    return this.http.post(this._url + 'user/signup/', user, this.headers).pipe()
+  }
 }

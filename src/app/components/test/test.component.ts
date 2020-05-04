@@ -41,14 +41,14 @@ export class TestComponent implements OnInit {
         this.questinoModeCounter = counter
       }
     });
-
+    counter = 0
     this.third.forEach(element => {
       if(element.mode != 'textAns')
       {
         counter ++
         this.questinoModeCounter = counter
       }
-    })  //Вроде должно сработьать
+    })
   }
 
   onSend() {

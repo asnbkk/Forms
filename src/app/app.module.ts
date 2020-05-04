@@ -19,6 +19,7 @@ import { TestComponent } from './components/test/test.component';
 import { QuestionCardComponent } from './components/question-card/question-card.component';
 import { AdminDetailedComponent } from './components/admin-detailed/admin-detailed.component';
 import { AdminResponsesComponent } from './components/admin-responses/admin-responses.component';
+import { RegistrationComponent } from './pages/registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { AdminResponsesComponent } from './components/admin-responses/admin-resp
     QuestionCardComponent,
     AdminDetailedComponent,
     AdminResponsesComponent,
+    RegistrationComponent,
   ],
   imports: [
     BrowserModule,
