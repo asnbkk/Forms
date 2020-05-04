@@ -1,0 +1,16 @@
+.header {
+    height: 50px;
+    display: grid;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: 11;
+    justify-content: end;
+    grid-gap: 3rem;
+    background: rgb(226, 226, 226);
+}
+.header_login {
+    margin-right: 1rem;
+    padding: 10px 1rem;
+    cursor: pointer;
+}
